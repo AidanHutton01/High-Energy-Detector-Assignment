@@ -1,0 +1,31 @@
+DETECTOR: CdTe
+<BEGIN>
+SOURCE1
+NAME: Americium
+FILE: CdTe\Americium_0degrees_200s_CdTe_uncal.mca
+TIME: 200
+S1ROI1: 59.54 348 369		GUESSES: 355 1 30
+S1ROI2: 26.34 262 295		GUESSES: 280 5 20
+
+SOURCE2 # Unused for this calibration
+#NAME: Caesium
+#FILE: CdTe\Caesium_0degrees_600s_CdTe_uncal.mca
+#TIME: 600
+#S2ROI1: 661.66 627 656		GUESSES: 640 2 15
+
+SOURCE3
+NAME: Barium # Most peaks not usable
+FILE: CdTe\Barium_0degrees_300s_CdTe_uncal.mca
+TIME: 300
+S2ROI1: 81 600 630		GUESSES: 615 5 15
+
+
+SOURCE4 # Not useable
+#NAME: Cobalt
+#FILE: CdTe\Cobalt_0degrees_600s_CdTe_uncal.mca
+#TIME: 600
+#S4D_ROI1: 1173.24 1332.5
+
+BACKGROUND
+BGFILE: CdTe\Background_0degrees_600s_CdTe.mca
+BGTIME: 600

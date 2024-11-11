@@ -1,0 +1,39 @@
+#for the best use of the Calibrate.py script name this file [DETECTOR_NAME]_config
+#for region of interest (ROI) lines leave a space inbetween every value
+
+EXPLAINATION:
+SOURCENUMBER #leave blank, just for organising
+NAME: #name of source
+FILE: #file/directory of measurement (counts will be read from the file, should be .Spe or .mca)
+TIME: #time of measurement (time used to remove background radiation)
+ROI: #write ROI data (peak energy, ROI start, ROI end)		GUESSES: #write the initial guesses for a gaussian function (mean, standard deviation, amplitude), keep on the same line as ROI
+D_ROI: #D_ denotes 2 overlapping peaks (double) you should enter both energy values before the channel limits 	GUESSES: #write guesses for two gaussians, they should be in the same order as the energies in the D_ROI
+
+EXAMPLE OF ACTUAL FORMAT:
+DETECTOR: BGO
+<BEGIN>
+SOURCE1
+NAME: Americium
+FILE: BGO\Americium_0degrees_200s_BGO_uncal.Spe
+TIME: 200
+S1ROI1: 59.54 15 45		GUESSES: 28 5 10000
+
+SOURCE2
+NAME: Barium
+FILE: BGO\Barium_0degrees_300s_BGO_uncal.Spe
+TIME: 300
+S2ROI1: 81 26 56		GUESSES: 40 3 2000
+S2D_ROI2: 302.85 356.01 130 230	GUESSES: 150 5 400 185 3 800
+|
+|
+|
+V
+SOURCEn #can add as many sources as you need
+NAME: Caesium
+FILE: BGO\Caesium_0degrees_200s_BGO_uncal.Spe
+TIME: 200
+SnROI1: 661.66 288 400		GUESSES: 340 5 3000
+
+BACKGROUND #for correcting the data
+BGFILE: CdTe\Background_0degrees_600s_CdTe.mca
+BGTIME: 600

@@ -1,0 +1,8 @@
+<DETECTOR RESOLUTION MODEL>
+Detector, a, a_err, b, b_err, c, c_err
+CdTe, 3.40, ±inf, -0.17, ±inf, 0.00, ±inf
+<PEAK RESOLUTION PARAMETERS>
+Peak, FWHM, FWHM_err, Res, Res_err
+Americium 59.54, 6.15, ±0.97, 0.02, ±0.16
+Americium 26.34, 6.81, ±0.52, 0.02, ±0.08
+Barium 81, 15.38, ±12.25, 0.02, ±0.80

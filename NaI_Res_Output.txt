@@ -1,0 +1,10 @@
+<DETECTOR RESOLUTION MODEL>
+Detector, a, a_err, b, b_err, c, c_err
+NaI, 344.82, ±185.86, -1.07, ±3.39, 0.02, ±0.01
+<PEAK RESOLUTION PARAMETERS>
+Peak, FWHM, FWHM_err, Res, Res_err
+Americium 59.54, 9.11, ±0.09, 0.32, ±0.01
+Caesium 661.66, 33.79, ±0.47, 0.12, ±0.01
+Barium 81, 9.23, ±0.66, 0.24, ±0.07
+Barium 302.85 D, 17.05, ±3.01, 0.13, ±0.18
+Barium 356.01 D, 26.42, ±1.39, 0.17, ±0.05

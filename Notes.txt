@@ -1,0 +1,4 @@
+open(fname, 'r') #separate lines?
+file.readlines().strip(remove\n)
+line.startswith('start') #can check a string in a line
+could take all lines from config and separte

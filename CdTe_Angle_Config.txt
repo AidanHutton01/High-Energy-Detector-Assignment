@@ -1,0 +1,47 @@
+DETECTOR: CdTe
+<BEGIN>
+SOURCE1
+NAME: Americium0
+FILE: CdTe\Americium_0degrees_200s_CdTe_uncal.mca
+TIME: 200
+S1ROI1: 59.54 348 369		GUESSES: 355 1 30
+
+SOURCE2
+NAME: Americium15
+FILE: CdTe\Americium_15degrees_200s_CdTe_uncal.mca
+TIME: 200
+S2ROI1: 59.54 348 369		GUESSES: 355 1 30
+
+SOURCE3
+NAME: Americium30
+FILE: CdTe\Americium_30degrees_200s_CdTe_uncal.mca
+TIME: 200
+S3ROI1: 59.54 348 369		GUESSES: 355 1 30
+
+SOURCE4
+NAME: Americium45
+FILE: CdTe\Americium_45degrees_200s_CdTe_uncal.mca
+TIME: 200
+S4ROI1: 59.54 348 369		GUESSES: 355 1 30
+
+SOURCE5
+NAME: Americium60
+FILE: CdTe\Americium_60degrees_200s_CdTe_uncal.mca
+TIME: 200
+S5ROI1: 59.54 348 369		GUESSES: 355 1 30
+
+SOURCE6
+NAME: Americium75
+FILE: CdTe\Americium_75degrees_200s_CdTe_uncal.mca
+TIME: 200
+S6ROI1: 59.54 348 369		GUESSES: 355 1 30
+
+SOURCE7
+NAME: Americium90
+FILE: CdTe\Americium_90degrees_200s_CdTe_uncal.mca
+TIME: 200
+S7ROI1: 59.54 348 369		GUESSES: 355 1 30
+
+BACKGROUND
+BGFILE: CdTe\Background_0degrees_600s_CdTe.mca
+BGTIME: 600
